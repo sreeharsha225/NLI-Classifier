@@ -50,10 +50,14 @@ We used LSTM to build NLI model. And we used the pre-trained BERT model to extra
 
 ## Results
 
-| Model | Accuracy |
-| :---: | :------: |
-| LSTM  |  0.602   |
-| BERT  |  0.990   |
+|    Models   |  SNLI | MultiNLI | ContractNLI |
+|:-----------:|:-----:|:--------:|:-----------:|
+|     LSTM    |  75%  |    62%   |      -      |
+|     BERT    | 86.4% |   80.3%  |      -      |
+|   SpanBERT  | 88.5% |   82.5%  |      -      |
+| SpanNLIBERT |   -   |     -    |    81.6%    |
+## Presentation
+- The following link contains the presentation of the project [Presentation](https://iiitaphyd-my.sharepoint.com/:p:/g/personal/sri_ram_students_iiit_ac_in/ERZQiqSlufZCt4w3N5P2bGoBkJP3pC9tkha3umt5dcT6tQ?e=DkS6n1)
 
 ## Reference
 
