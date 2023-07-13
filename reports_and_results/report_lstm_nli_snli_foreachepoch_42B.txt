@@ -1,0 +1,871 @@
+
+
+Epoch:  1
+Epoch:  1  Train Loss:  1.1699728949858224 Train Accuracy:  0.3331598002792305
+Epoch:  1  Val Loss:  1.1507832916913094  Val Accuracy:  0.33275756959967484
+Epoch:  1 Test Loss:  1.1521396712682146  Test Accuracy:  0.33377442996742673
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.33      0.04      0.08      3329
+      neutral       0.32      0.10      0.15      3235
+contradiction       0.33      0.86      0.48      3278
+
+     accuracy                           0.33      9842
+    macro avg       0.33      0.33      0.24      9842
+ weighted avg       0.33      0.33      0.24      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.37      0.05      0.08      3368
+      neutral       0.34      0.10      0.16      3219
+contradiction       0.33      0.86      0.48      3237
+
+     accuracy                           0.33      9824
+    macro avg       0.35      0.34      0.24      9824
+ weighted avg       0.35      0.33      0.24      9824
+
+
+
+Epoch:  2
+Epoch:  2  Train Loss:  1.162398468175311 Train Accuracy:  0.33435572213110726
+Epoch:  2  Val Loss:  1.1176165768078394  Val Accuracy:  0.33722820564925826
+Epoch:  2 Test Loss:  1.1232075095176697  Test Accuracy:  0.3277687296416938
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.34      0.17      0.23      3329
+      neutral       0.33      0.18      0.24      3235
+contradiction       0.34      0.66      0.45      3278
+
+     accuracy                           0.34      9842
+    macro avg       0.34      0.34      0.30      9842
+ weighted avg       0.34      0.34      0.30      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.32      0.17      0.22      3368
+      neutral       0.34      0.19      0.24      3219
+contradiction       0.33      0.63      0.43      3237
+
+     accuracy                           0.33      9824
+    macro avg       0.33      0.33      0.30      9824
+ weighted avg       0.33      0.33      0.30      9824
+
+
+
+Epoch:  3
+Epoch:  3  Train Loss:  1.1616942390577325 Train Accuracy:  0.3335129339767405
+Epoch:  3  Val Loss:  1.1331661242943305  Val Accuracy:  0.3386506807559439
+Epoch:  3 Test Loss:  1.1348194582842848  Test Accuracy:  0.33418159609120524
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.37      0.09      0.14      3329
+      neutral       0.34      0.76      0.47      3235
+contradiction       0.33      0.18      0.23      3278
+
+     accuracy                           0.34      9842
+    macro avg       0.35      0.34      0.28      9842
+ weighted avg       0.35      0.34      0.28      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.37      0.08      0.14      3368
+      neutral       0.33      0.75      0.46      3219
+contradiction       0.34      0.18      0.24      3237
+
+     accuracy                           0.33      9824
+    macro avg       0.35      0.34      0.28      9824
+ weighted avg       0.35      0.33      0.27      9824
+
+
+
+Epoch:  4
+Epoch:  4  Train Loss:  1.1619245509329736 Train Accuracy:  0.33357118283406173
+Epoch:  4  Val Loss:  1.152089176433427  Val Accuracy:  0.32625482625482627
+Epoch:  4 Test Loss:  1.1459083522181557  Test Accuracy:  0.33112785016286644
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.32      0.02      0.04      3329
+      neutral       0.32      0.25      0.28      3235
+contradiction       0.33      0.71      0.45      3278
+
+     accuracy                           0.33      9842
+    macro avg       0.32      0.33      0.26      9842
+ weighted avg       0.32      0.33      0.26      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.40      0.02      0.04      3368
+      neutral       0.33      0.25      0.29      3219
+contradiction       0.33      0.73      0.46      3237
+
+     accuracy                           0.33      9824
+    macro avg       0.35      0.34      0.26      9824
+ weighted avg       0.35      0.33      0.26      9824
+
+
+
+Epoch:  5
+Epoch:  5  Train Loss:  1.161086866317902 Train Accuracy:  0.3342173810949693
+Epoch:  5  Val Loss:  1.142228619812371  Val Accuracy:  0.4266409266409266
+Epoch:  5 Test Loss:  1.1331287486545427  Test Accuracy:  0.43699104234527686
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.40      0.83      0.54      3329
+      neutral       0.49      0.45      0.47      3235
+contradiction       0.28      0.00      0.00      3278
+
+     accuracy                           0.43      9842
+    macro avg       0.39      0.42      0.34      9842
+ weighted avg       0.39      0.43      0.34      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.41      0.84      0.55      3368
+      neutral       0.51      0.45      0.48      3219
+contradiction       0.38      0.00      0.00      3237
+
+     accuracy                           0.44      9824
+    macro avg       0.43      0.43      0.34      9824
+ weighted avg       0.43      0.44      0.35      9824
+
+
+
+Epoch:  6
+Epoch:  6  Train Loss:  0.997449380717998 Train Accuracy:  0.5208631024433575
+Epoch:  6  Val Loss:  0.8899080757196848  Val Accuracy:  0.5948994106888844
+Epoch:  6 Test Loss:  0.8754816894034221  Test Accuracy:  0.6039291530944625
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.61      0.61      0.61      3329
+      neutral       0.58      0.63      0.60      3235
+contradiction       0.60      0.54      0.57      3278
+
+     accuracy                           0.59      9842
+    macro avg       0.60      0.59      0.59      9842
+ weighted avg       0.60      0.59      0.59      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.63      0.65      0.64      3368
+      neutral       0.58      0.64      0.61      3219
+contradiction       0.61      0.53      0.57      3237
+
+     accuracy                           0.60      9824
+    macro avg       0.60      0.60      0.60      9824
+ weighted avg       0.60      0.60      0.60      9824
+
+
+
+Epoch:  7
+Epoch:  7  Train Loss:  0.8970327290644712 Train Accuracy:  0.5943149115254466
+Epoch:  7  Val Loss:  0.8775813736311802  Val Accuracy:  0.6008941272099166
+Epoch:  7 Test Loss:  0.8687125907464602  Test Accuracy:  0.6050488599348535
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.56      0.80      0.66      3329
+      neutral       0.75      0.40      0.52      3235
+contradiction       0.58      0.60      0.59      3278
+
+     accuracy                           0.60      9842
+    macro avg       0.63      0.60      0.59      9842
+ weighted avg       0.63      0.60      0.59      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.57      0.81      0.67      3368
+      neutral       0.76      0.40      0.53      3219
+contradiction       0.58      0.59      0.59      3237
+
+     accuracy                           0.61      9824
+    macro avg       0.64      0.60      0.59      9824
+ weighted avg       0.63      0.61      0.59      9824
+
+
+
+Epoch:  8
+Epoch:  8  Train Loss:  0.8578639078732556 Train Accuracy:  0.6182206066254434
+Epoch:  8  Val Loss:  0.8459704946000854  Val Accuracy:  0.6088193456614509
+Epoch:  8 Test Loss:  0.8386265080215877  Test Accuracy:  0.620928338762215
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.67      0.57      0.62      3329
+      neutral       0.68      0.50      0.58      3235
+contradiction       0.53      0.76      0.63      3278
+
+     accuracy                           0.61      9842
+    macro avg       0.63      0.61      0.61      9842
+ weighted avg       0.63      0.61      0.61      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.69      0.59      0.64      3368
+      neutral       0.69      0.52      0.59      3219
+contradiction       0.54      0.75      0.63      3237
+
+     accuracy                           0.62      9824
+    macro avg       0.64      0.62      0.62      9824
+ weighted avg       0.64      0.62      0.62      9824
+
+
+
+Epoch:  9
+Epoch:  9  Train Loss:  0.8351178014701283 Train Accuracy:  0.6332124062784987
+Epoch:  9  Val Loss:  0.8113451876810619  Val Accuracy:  0.6510871774029668
+Epoch:  9 Test Loss:  0.7982748262462864  Test Accuracy:  0.6553338762214984
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.62      0.78      0.69      3329
+      neutral       0.74      0.51      0.60      3235
+contradiction       0.63      0.66      0.65      3278
+
+     accuracy                           0.65      9842
+    macro avg       0.66      0.65      0.65      9842
+ weighted avg       0.66      0.65      0.65      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.63      0.79      0.70      3368
+      neutral       0.74      0.52      0.61      3219
+contradiction       0.63      0.66      0.64      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.67      0.65      0.65      9824
+ weighted avg       0.67      0.66      0.65      9824
+
+
+
+Epoch:  10
+Epoch:  10  Train Loss:  0.8196105385652265 Train Accuracy:  0.642754297218435
+Epoch:  10  Val Loss:  0.7743290106390978  Val Accuracy:  0.6611461085145296
+Epoch:  10 Test Loss:  0.767527274569005  Test Accuracy:  0.662764657980456
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.66      0.70      0.68      3329
+      neutral       0.67      0.63      0.65      3235
+contradiction       0.65      0.65      0.65      3278
+
+     accuracy                           0.66      9842
+    macro avg       0.66      0.66      0.66      9842
+ weighted avg       0.66      0.66      0.66      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.67      0.71      0.69      3368
+      neutral       0.68      0.62      0.65      3219
+contradiction       0.65      0.65      0.65      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.66      0.66      0.66      9824
+ weighted avg       0.66      0.66      0.66      9824
+
+
+
+Epoch:  11
+Epoch:  11  Train Loss:  0.8058844716457402 Train Accuracy:  0.651493446093413
+Epoch:  11  Val Loss:  0.7687037342361042  Val Accuracy:  0.6705954074375127
+Epoch:  11 Test Loss:  0.7706192893003407  Test Accuracy:  0.6725366449511401
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.66      0.76      0.70      3329
+      neutral       0.62      0.73      0.67      3235
+contradiction       0.78      0.53      0.63      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.69      0.67      0.67      9842
+ weighted avg       0.69      0.67      0.67      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.66      0.76      0.71      3368
+      neutral       0.62      0.73      0.67      3219
+contradiction       0.78      0.53      0.63      3237
+
+     accuracy                           0.67      9824
+    macro avg       0.69      0.67      0.67      9824
+ weighted avg       0.69      0.67      0.67      9824
+
+
+
+Epoch:  12
+Epoch:  12  Train Loss:  0.7974897143374591 Train Accuracy:  0.6565428939124484
+Epoch:  12  Val Loss:  0.7834705367877886  Val Accuracy:  0.6567770778297094
+Epoch:  12 Test Loss:  0.7776324348069169  Test Accuracy:  0.6628664495114006
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.72      0.70      3329
+      neutral       0.76      0.50      0.60      3235
+contradiction       0.59      0.75      0.66      3278
+
+     accuracy                           0.66      9842
+    macro avg       0.68      0.66      0.65      9842
+ weighted avg       0.68      0.66      0.65      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.73      0.70      3368
+      neutral       0.77      0.50      0.61      3219
+contradiction       0.59      0.76      0.67      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.68      0.66      0.66      9824
+ weighted avg       0.68      0.66      0.66      9824
+
+
+
+Epoch:  13
+Epoch:  13  Train Loss:  0.7877276213188679 Train Accuracy:  0.661878125187716
+Epoch:  13  Val Loss:  0.7784232569785862  Val Accuracy:  0.6781142044299939
+Epoch:  13 Test Loss:  0.7712444425211668  Test Accuracy:  0.6767100977198697
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.62      0.85      0.71      3329
+      neutral       0.68      0.65      0.67      3235
+contradiction       0.81      0.53      0.64      3278
+
+     accuracy                           0.68      9842
+    macro avg       0.70      0.68      0.67      9842
+ weighted avg       0.70      0.68      0.67      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.61      0.84      0.71      3368
+      neutral       0.68      0.65      0.66      3219
+contradiction       0.82      0.53      0.65      3237
+
+     accuracy                           0.68      9824
+    macro avg       0.70      0.67      0.67      9824
+ weighted avg       0.70      0.68      0.67      9824
+
+
+
+Epoch:  14
+Epoch:  14  Train Loss:  0.7742509291735578 Train Accuracy:  0.670957665822665
+Epoch:  14  Val Loss:  0.7516938116062771  Val Accuracy:  0.6834992887624467
+Epoch:  14 Test Loss:  0.7382401493939204  Test Accuracy:  0.6936074918566775
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.73      0.67      0.70      3329
+      neutral       0.64      0.69      0.67      3235
+contradiction       0.69      0.69      0.69      3278
+
+     accuracy                           0.68      9842
+    macro avg       0.69      0.68      0.68      9842
+ weighted avg       0.69      0.68      0.68      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.74      0.68      0.71      3368
+      neutral       0.65      0.71      0.68      3219
+contradiction       0.70      0.69      0.70      3237
+
+     accuracy                           0.69      9824
+    macro avg       0.70      0.69      0.69      9824
+ weighted avg       0.70      0.69      0.69      9824
+
+
+
+Epoch:  15
+Epoch:  15  Train Loss:  0.7585036697687246 Train Accuracy:  0.6795311695096357
+Epoch:  15  Val Loss:  0.7734397313037475  Val Accuracy:  0.668360089412721
+Epoch:  15 Test Loss:  0.7742933427083765  Test Accuracy:  0.6699918566775245
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.63      0.85      0.72      3329
+      neutral       0.82      0.42      0.55      3235
+contradiction       0.65      0.74      0.69      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.70      0.67      0.65      9842
+ weighted avg       0.70      0.67      0.66      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.62      0.84      0.72      3368
+      neutral       0.82      0.42      0.55      3219
+contradiction       0.66      0.74      0.70      3237
+
+     accuracy                           0.67      9824
+    macro avg       0.70      0.67      0.66      9824
+ weighted avg       0.70      0.67      0.66      9824
+
+
+
+Epoch:  16
+Epoch:  16  Train Loss:  0.7480729942011255 Train Accuracy:  0.6844277140782027
+Epoch:  16  Val Loss:  0.7523268656684207  Val Accuracy:  0.6934566145092461
+Epoch:  16 Test Loss:  0.7390511681474381  Test Accuracy:  0.7029723127035831
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.66      0.81      0.73      3329
+      neutral       0.76      0.54      0.63      3235
+contradiction       0.68      0.73      0.70      3278
+
+     accuracy                           0.69      9842
+    macro avg       0.70      0.69      0.69      9842
+ weighted avg       0.70      0.69      0.69      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.82      0.74      3368
+      neutral       0.76      0.55      0.64      3219
+contradiction       0.70      0.73      0.71      3237
+
+     accuracy                           0.70      9824
+    macro avg       0.71      0.70      0.70      9824
+ weighted avg       0.71      0.70      0.70      9824
+
+
+
+Epoch:  17
+Epoch:  17  Train Loss:  0.740153727643296 Train Accuracy:  0.6890439360209113
+Epoch:  17  Val Loss:  0.7652201892493607  Val Accuracy:  0.6890875838244259
+Epoch:  17 Test Loss:  0.7665928703177636  Test Accuracy:  0.6867874592833876
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.79      0.73      3329
+      neutral       0.79      0.49      0.61      3235
+contradiction       0.65      0.78      0.71      3278
+
+     accuracy                           0.69      9842
+    macro avg       0.71      0.69      0.68      9842
+ weighted avg       0.71      0.69      0.68      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.67      0.79      0.73      3368
+      neutral       0.78      0.48      0.60      3219
+contradiction       0.65      0.78      0.71      3237
+
+     accuracy                           0.69      9824
+    macro avg       0.70      0.68      0.68      9824
+ weighted avg       0.70      0.69      0.68      9824
+
+
+
+Epoch:  18
+Epoch:  18  Train Loss:  0.7325785213392245 Train Accuracy:  0.6938385450891662
+Epoch:  18  Val Loss:  0.70621854589357  Val Accuracy:  0.7054460475513107
+Epoch:  18 Test Loss:  0.7044012447521819  Test Accuracy:  0.7060260586319218
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.69      0.78      0.73      3329
+      neutral       0.66      0.69      0.67      3235
+contradiction       0.79      0.64      0.71      3278
+
+     accuracy                           0.71      9842
+    macro avg       0.71      0.70      0.70      9842
+ weighted avg       0.71      0.71      0.71      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.80      0.74      3368
+      neutral       0.66      0.68      0.67      3219
+contradiction       0.79      0.64      0.71      3237
+
+     accuracy                           0.71      9824
+    macro avg       0.71      0.70      0.70      9824
+ weighted avg       0.71      0.71      0.71      9824
+
+
+
+Epoch:  19
+Epoch:  19  Train Loss:  0.7269228081542648 Train Accuracy:  0.6967054810354463
+Epoch:  19  Val Loss:  0.8948443304602202  Val Accuracy:  0.6657183499288762
+Epoch:  19 Test Loss:  0.8952326709556269  Test Accuracy:  0.6632736156351792
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.56      0.94      0.70      3329
+      neutral       0.78      0.47      0.59      3235
+contradiction       0.84      0.58      0.68      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.73      0.66      0.66      9842
+ weighted avg       0.72      0.67      0.66      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.56      0.94      0.70      3368
+      neutral       0.77      0.46      0.58      3219
+contradiction       0.84      0.57      0.68      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.72      0.66      0.65      9824
+ weighted avg       0.72      0.66      0.65      9824
+
+
+
+Epoch:  20
+Epoch:  20  Train Loss:  0.7221880797913015 Train Accuracy:  0.6982927623974502
+Epoch:  20  Val Loss:  0.7066784426569939  Val Accuracy:  0.7098150782361309
+Epoch:  20 Test Loss:  0.7015439559271747  Test Accuracy:  0.7166123778501629
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.81      0.74      3329
+      neutral       0.72      0.60      0.66      3235
+contradiction       0.73      0.71      0.72      3278
+
+     accuracy                           0.71      9842
+    macro avg       0.71      0.71      0.71      9842
+ weighted avg       0.71      0.71      0.71      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.81      0.74      3368
+      neutral       0.73      0.62      0.67      3219
+contradiction       0.75      0.72      0.73      3237
+
+     accuracy                           0.72      9824
+    macro avg       0.72      0.72      0.71      9824
+ weighted avg       0.72      0.72      0.71      9824
+
+
+
+Epoch:  21
+Epoch:  21  Train Loss:  0.7185404002041541 Train Accuracy:  0.7013617490675632
+Epoch:  21  Val Loss:  0.7901805541538572  Val Accuracy:  0.6594188173135541
+Epoch:  21 Test Loss:  0.7866152877333886  Test Accuracy:  0.66439332247557
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.80      0.55      0.65      3329
+      neutral       0.71      0.59      0.65      3235
+contradiction       0.57      0.83      0.67      3278
+
+     accuracy                           0.66      9842
+    macro avg       0.69      0.66      0.66      9842
+ weighted avg       0.69      0.66      0.66      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.80      0.56      0.66      3368
+      neutral       0.72      0.59      0.65      3219
+contradiction       0.57      0.85      0.68      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.70      0.67      0.66      9824
+ weighted avg       0.70      0.66      0.66      9824
+
+
+
+Epoch:  22
+Epoch:  22  Train Loss:  0.7161783827104209 Train Accuracy:  0.7022700671864164
+Epoch:  22  Val Loss:  0.7873486439128975  Val Accuracy:  0.6731355415565942
+Epoch:  22 Test Loss:  0.7799667465570307  Test Accuracy:  0.683428338762215
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.81      0.54      0.65      3329
+      neutral       0.62      0.69      0.65      3235
+contradiction       0.64      0.79      0.71      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.69      0.67      0.67      9842
+ weighted avg       0.69      0.67      0.67      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.81      0.56      0.66      3368
+      neutral       0.63      0.70      0.67      3219
+contradiction       0.65      0.80      0.72      3237
+
+     accuracy                           0.68      9824
+    macro avg       0.70      0.69      0.68      9824
+ weighted avg       0.70      0.68      0.68      9824
+
+
+
+Epoch:  23
+Epoch:  23  Train Loss:  0.7114411041718619 Train Accuracy:  0.7048093533102644
+Epoch:  23  Val Loss:  0.8598735736949104  Val Accuracy:  0.6672424304003252
+Epoch:  23 Test Loss:  0.8667517509250765  Test Accuracy:  0.6608306188925082
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.56      0.94      0.70      3329
+      neutral       0.72      0.54      0.62      3235
+contradiction       0.90      0.52      0.66      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.73      0.67      0.66      9842
+ weighted avg       0.73      0.67      0.66      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.56      0.94      0.70      3368
+      neutral       0.72      0.53      0.61      3219
+contradiction       0.90      0.51      0.65      3237
+
+     accuracy                           0.66      9824
+    macro avg       0.73      0.66      0.65      9824
+ weighted avg       0.72      0.66      0.65      9824
+
+
+
+Epoch:  24
+Epoch:  24  Train Loss:  0.7083005223280897 Train Accuracy:  0.7064730862975024
+Epoch:  24  Val Loss:  0.7122614349831234  Val Accuracy:  0.7092054460475513
+Epoch:  24 Test Loss:  0.7063358816339449  Test Accuracy:  0.7085708469055375
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.70      0.80      0.75      3329
+      neutral       0.64      0.75      0.69      3235
+contradiction       0.84      0.58      0.69      3278
+
+     accuracy                           0.71      9842
+    macro avg       0.73      0.71      0.71      9842
+ weighted avg       0.73      0.71      0.71      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.70      0.79      0.74      3368
+      neutral       0.63      0.74      0.68      3219
+contradiction       0.85      0.59      0.70      3237
+
+     accuracy                           0.71      9824
+    macro avg       0.73      0.71      0.71      9824
+ weighted avg       0.73      0.71      0.71      9824
+
+
+
+Epoch:  25
+Epoch:  25  Train Loss:  0.7063158527042679 Train Accuracy:  0.7081349990079492
+Epoch:  25  Val Loss:  0.7297546367173071  Val Accuracy:  0.6997561471245681
+Epoch:  25 Test Loss:  0.7288241966927868  Test Accuracy:  0.7082654723127035
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.74      0.73      0.73      3329
+      neutral       0.60      0.80      0.68      3235
+contradiction       0.84      0.58      0.69      3278
+
+     accuracy                           0.70      9842
+    macro avg       0.73      0.70      0.70      9842
+ weighted avg       0.73      0.70      0.70      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.74      0.74      0.74      3368
+      neutral       0.61      0.79      0.69      3219
+contradiction       0.85      0.60      0.70      3237
+
+     accuracy                           0.71      9824
+    macro avg       0.73      0.71      0.71      9824
+ weighted avg       0.73      0.71      0.71      9824
+
+
+
+Epoch:  26
+Epoch:  26  Train Loss:  0.7031131324341793 Train Accuracy:  0.709696796494875
+Epoch:  26  Val Loss:  0.7176796230789902  Val Accuracy:  0.7081893923999187
+Epoch:  26 Test Loss:  0.7163637563926001  Test Accuracy:  0.7088762214983714
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.69      0.81      0.75      3329
+      neutral       0.64      0.74      0.68      3235
+contradiction       0.86      0.57      0.69      3278
+
+     accuracy                           0.71      9842
+    macro avg       0.73      0.71      0.71      9842
+ weighted avg       0.73      0.71      0.71      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.69      0.81      0.75      3368
+      neutral       0.64      0.74      0.68      3219
+contradiction       0.87      0.58      0.69      3237
+
+     accuracy                           0.71      9824
+    macro avg       0.73      0.71      0.71      9824
+ weighted avg       0.73      0.71      0.71      9824
+
+
+
+Epoch:  27
+Epoch:  27  Train Loss:  0.7014766431492575 Train Accuracy:  0.7110492621508027
+Epoch:  27  Val Loss:  0.7509362906604619  Val Accuracy:  0.6732371469213575
+Epoch:  27 Test Loss:  0.7551865891253132  Test Accuracy:  0.6735545602605864
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.81      0.52      0.63      3329
+      neutral       0.56      0.80      0.66      3235
+contradiction       0.76      0.70      0.73      3278
+
+     accuracy                           0.67      9842
+    macro avg       0.71      0.67      0.67      9842
+ weighted avg       0.71      0.67      0.67      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.81      0.53      0.64      3368
+      neutral       0.56      0.80      0.66      3219
+contradiction       0.76      0.70      0.73      3237
+
+     accuracy                           0.67      9824
+    macro avg       0.71      0.68      0.67      9824
+ weighted avg       0.71      0.67      0.67      9824
+
+
+
+Epoch:  28
+Epoch:  28  Train Loss:  0.6987412295322466 Train Accuracy:  0.7119885249751077
+Epoch:  28  Val Loss:  0.7317728392489544  Val Accuracy:  0.6991465149359887
+Epoch:  28 Test Loss:  0.7242776974792977  Test Accuracy:  0.7011400651465798
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.79      0.64      0.71      3329
+      neutral       0.65      0.69      0.67      3235
+contradiction       0.68      0.77      0.72      3278
+
+     accuracy                           0.70      9842
+    macro avg       0.71      0.70      0.70      9842
+ weighted avg       0.71      0.70      0.70      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.78      0.64      0.70      3368
+      neutral       0.64      0.69      0.67      3219
+contradiction       0.69      0.78      0.73      3237
+
+     accuracy                           0.70      9824
+    macro avg       0.71      0.70      0.70      9824
+ weighted avg       0.71      0.70      0.70      9824
+
+
+
+Epoch:  29
+Epoch:  29  Train Loss:  0.6968420819923601 Train Accuracy:  0.7134975344350862
+Epoch:  29  Val Loss:  0.7024740637703375  Val Accuracy:  0.7207884576305629
+Epoch:  29 Test Loss:  0.7012636713950564  Test Accuracy:  0.716307003257329
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.69      0.82      0.75      3329
+      neutral       0.67      0.71      0.69      3235
+contradiction       0.84      0.63      0.72      3278
+
+     accuracy                           0.72      9842
+    macro avg       0.73      0.72      0.72      9842
+ weighted avg       0.73      0.72      0.72      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.68      0.82      0.74      3368
+      neutral       0.67      0.70      0.68      3219
+contradiction       0.84      0.62      0.72      3237
+
+     accuracy                           0.72      9824
+    macro avg       0.73      0.71      0.72      9824
+ weighted avg       0.73      0.72      0.72      9824
+
+
+
+Epoch:  30
+Epoch:  30  Train Loss:  0.6943787157210936 Train Accuracy:  0.7137414515251189
+Epoch:  30  Val Loss:  0.6856795443923442  Val Accuracy:  0.7249542775858565
+Epoch:  30 Test Loss:  0.6898439505201209  Test Accuracy:  0.7182410423452769
+
+Validation Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.72      0.79      0.75      3329
+      neutral       0.66      0.73      0.69      3235
+contradiction       0.82      0.65      0.73      3278
+
+     accuracy                           0.72      9842
+    macro avg       0.73      0.72      0.72      9842
+ weighted avg       0.73      0.72      0.73      9842
+
+Test Classification report
+               precision    recall  f1-score   support
+
+   entailment       0.72      0.78      0.75      3368
+      neutral       0.65      0.72      0.68      3219
+contradiction       0.81      0.65      0.72      3237
+
+     accuracy                           0.72      9824
+    macro avg       0.73      0.72      0.72      9824
+ weighted avg       0.73      0.72      0.72      9824
+
+Total Train Loss 0.8291083993160772  Total Train Accuracy:  0.6181305636001677

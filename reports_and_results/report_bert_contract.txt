@@ -1,0 +1,13 @@
+100%|██████████| 868/868 [08:21<00:00,  1.73it/s]
+Epoch: 01 | Epoch Time: 8m 21s
+	Train Loss: 5.880 | Train Acc: 81.64%
+100%|██████████| 868/868 [08:27<00:00,  1.71it/s]
+Epoch: 02 | Epoch Time: 8m 27s
+	Train Loss: 5.862 | Train Acc: 81.80%
+100%|██████████| 868/868 [08:38<00:00,  1.68it/s]
+Epoch: 03 | Epoch Time: 8m 38s
+	Train Loss: 5.862 | Train Acc: 81.80%
+100%|██████████| 868/868 [08:25<00:00,  1.72it/s]
+Epoch: 04 | Epoch Time: 8m 25s
+	Train Loss: 5.862 | Train Acc: 81.83%
+ 84%|████████▎ | 725/868 [07:06<01:22,  1.73it/s]
